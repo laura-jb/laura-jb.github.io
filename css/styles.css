@@ -20,19 +20,28 @@ header {
   text-align: center;
 }
 nav {
-  background-color: #333;
+  background-color: #e0e0e0;
   display: flex;
   justify-content: center;
+  border-bottom: 2px solid #ccc;
 }
 nav a {
-  color: red;
-  padding: 14px 20px;
+  padding: 12px 24px;
+  margin: 0 4px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
+  color: #333;
   text-decoration: none;
-  transition: background 0.3s;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
 }
 nav a:hover {
-  background-color: #4a90e2;
+  background-color: #d0e6ff;
+  transform: translateY(-2px);
 }
+
 
 /* Main content */
 main {
